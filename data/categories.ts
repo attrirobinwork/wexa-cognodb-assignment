@@ -1,0 +1,17 @@
+export const categories = [
+    { id: 'category-001', name: 'Electronics' },
+    { id: 'category-002', name: 'Computer Accessories' },
+    { id: 'category-003', name: 'Mobile & Tablets' },
+    { id: 'category-004', name: 'Networking' },
+    { id: 'category-005', name: 'Storage Devices' },
+    { id: 'category-006', name: 'Office Equipment' },
+    { id: 'category-007', name: 'Audio & Video' },
+    { id: 'category-008', name: 'Smart Home' },
+    { id: 'category-009', name: 'Security Systems' },
+    { id: 'category-010', name: 'Gaming' },
+    { id: 'category-011', name: 'Power & Batteries' },
+    { id: 'category-012', name: 'Printers & Scanners' },
+    { id: 'category-013', name: 'Cables & Adapters' },
+    { id: 'category-014', name: 'Wearables' },
+    { id: 'category-015', name: 'Accessories' },
+  ];
