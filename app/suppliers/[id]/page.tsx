@@ -62,7 +62,7 @@ export default async function SupplierDetailPage({
         </h1>
 
         <Link
-          href="/suppliers"
+          href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
           className="mt-6 inline-block text-sm text-blue-400"
         >
           Back to suppliers

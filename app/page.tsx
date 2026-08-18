@@ -67,7 +67,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/suppliers"
+              href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
               className="transition hover:text-blue-400"
             >
               Suppliers
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
           <Link
-            href="/suppliers"
+            href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
             className="flex items-center gap-2 rounded-xl bg-white px-4 py-2.5 text-sm font-medium text-black transition hover:bg-slate-200 hover:shadow-md"
           >
             Explore network
@@ -106,7 +106,7 @@ export default function Home() {
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Link
-                href="/suppliers"
+                href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
                 className="group flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 text-sm font-medium transition hover:bg-blue-500 hover:shadow-lg"
               >
                 Explore suppliers
@@ -117,7 +117,7 @@ export default function Home() {
               </Link>
 
               <Link
-                href="/suppliers"
+                href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
                 className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-6 py-3.5 text-sm font-medium text-slate-300 transition hover:bg-white/[0.06] hover:text-white hover:shadow-md"
               >
                 <Search size={17} />
@@ -178,7 +178,7 @@ export default function Home() {
 
             <div className="mt-8">
               <Link
-                href="/suppliers"
+                href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
                 className="inline-flex items-center gap-2 text-sm font-medium text-white transition hover:text-blue-400"
               >
                 Explore the supplier network
@@ -253,7 +253,7 @@ export default function Home() {
             </div>
 
             <Link
-              href="/suppliers"
+              href="https://wexa-cognodb-assignment-henna.vercel.app/suppliers"
               className="flex shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-medium text-black transition hover:bg-slate-200 hover:shadow-md"
             >
               Open supplier explorer
