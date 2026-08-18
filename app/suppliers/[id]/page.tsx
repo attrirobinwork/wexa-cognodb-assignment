@@ -76,7 +76,27 @@ export default async function SupplierDetailPage({
 
   return (
     <main className="min-h-screen bg-[#070a0f]">
+       
+
       <div className="mx-auto max-w-7xl px-5 py-8 sm:px-8 lg:px-10">
+      <header className="flex items-center justify-between border-b border-white/10 pb-6 mb-4">
+        <Link href="/" className="flex items-center gap-3 hover:scale-105 transition-transform">
+          <div className="flex items-center gap-3">
+            <div>
+              <p className="font-semibold text-white">
+              Wexa Ai
+              </p>
+              <p className="text-xs text-slate-500">
+                Supplier intelligence
+              </p>
+            </div>
+          </div>
+          </Link>
+
+          <div className="hidden rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1.5 text-xs font-medium text-emerald-400 sm:block">
+            ● System operational
+          </div>
+        </header>
         <SupplierHeader supplier={supplier} />
 
 
