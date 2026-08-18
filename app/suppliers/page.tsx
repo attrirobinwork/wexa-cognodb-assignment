@@ -1,5 +1,6 @@
 import SupplierSearch from '@/components/suppliers/SupplierSearch';
 import SupplierList from '@/components/suppliers/SupplierList';
+import Link from 'next/link';
 
 interface Props {
   searchParams: Promise<{
@@ -40,6 +41,7 @@ export default async function SuppliersPage({
       <div className="mx-auto max-w-7xl px-5 py-8 sm:px-8 lg:px-10">
         {/* Header */}
         <header className="flex items-center justify-between border-b border-white/10 pb-6">
+        <Link href="/" className="flex items-center gap-3 hover:scale-105 transition-transform">
           <div className="flex items-center gap-3">
             <div>
               <p className="font-semibold text-white">
@@ -50,6 +52,7 @@ export default async function SuppliersPage({
               </p>
             </div>
           </div>
+          </Link>
 
           <div className="hidden rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1.5 text-xs font-medium text-emerald-400 sm:block">
             ● System operational
